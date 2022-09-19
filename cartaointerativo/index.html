@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Cartão Interativo</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="photo">
+      <img src="images/bg-main-desktop.png" alt="">
+      <div class="frontcard">
+        <img src="images/bg-card-front.png" alt="">
+        <div class="frontcard-number">0000 0000 0000 0000</div>
+        <div class="frontcard-name">Tom Brady</div>
+        <div class="frontcard-date">00/00</div>
+        <div class="frontcard-ball--white"></div>
+        <div class="frontcard-ball"></div>
+      </div>
+      <div class="backcard">
+        <img src="images/bg-card-back.png" alt="">
+        <div class="backcard-side">000</div>
+      </div>
+    </div>
+    <form method="POST" class="validator">
+      <label for="">CARDHOLDER NAME <input id="form-name" value="" type="text" placeholder="e.g. Tom Brady"></label>
+      <label for="">CARD NUMBER <input id="card-number" value="" type="num"
+          placeholder="e.g 1234 5555 8888 0000"></label>
+      <div class="contentright">
+        <label>EXP. DATE(MM/YY)</label>
+        <input id="month" value="" type="num" placeholder="MM">
+        <input id="year" value="" type="num" placeholder="YY">
+        <label>CVC</label>
+        <input id="back" value="" style="width: 50%;" type="num" placeholder="e.g 123">
+        <button id="button">Confirm</button>
+      </div>
+    </form>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+// if (vlrBruto >= 750) {
+//   console.log("valor bruto > 750");
+// } else {
+//   console.log("valor bruto < 750");
+// }
+// if (qtnAlqueire >= 1000) {
+//   console.log("tamanho do alqueire > 1000");
+// } else {
+//   console.log("tamanho do alqueire < 1000");
+
+
+// document.getElementById("1").innerHTML = "R$" + valorDesconto;
+// document.getElementById("1").innerHTML = "R$" + valorDesconto2;
+
+
+
+
+// qtnProduto = parseInt(document.getElementById("quantidade").value);
+// daninha = 50.00;
+// gafanhoto = 100.00;
+// semDesconto = daninha * qtnProduto;
+// semDesconto2 = gafanhoto * qtnProduto;
+// document.getElementById("1").innerHTML = "R$" + semDesconto;
+// document.getElementById("2").innerHTML = "R$" + semDesconto2;
+
+
+// daninha = 50.00;
+// gafanhoto = 100.00;
+// broca = 150.00;
+// todos = 250.00;
+// vlrBruto2 = qtnAlqueire * gafanhoto;
+// vlrBruto3 = qtnAlqueire * broca;
+// vlrBruto4 = qtnAlqueire * todos;
+// console.log("valor bruto: " + vlrBruto2);
+// console.log("valor bruto: " + vlrBruto3);
+// console.log("valor bruto: " + vlrBruto4);
+// descontoTodos = vlrBruto4 * 10 / 100;
+// descontoBro = vlrBruto3 * 10 / 100;
+// descontoGaf = vlrBruto2 * 10 / 100;
+// vlrDesconto2 = vlrBruto2 - descontoGaf;
+// vlrDesconto3 = vlrBruto3 - descontoBro;
+// vlrDesconto4 = vlrBruto4 - descontoTodos;
+// descontoTodos = vlrBruto4 * 5 / 100;
+// descontoBro = vlrBruto3 * 5 / 100;
+// descontoGaf = vlrBruto2 * 5 / 100;
+// vlrDesconto2 = vlrBruto2 - descontoGaf;
+// vlrDesconto3 = vlrBruto3 - descontoBro;
+// vlrDesconto4 = vlrBruto4 - descontoTodos;

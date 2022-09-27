@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+
+body {
+  width: 100%;
+}
+
+label,
+input {
+  display: flex;
+  height: 35px;
+  border-radius: 8%;
+}
+
+button {
+  margin-top: 20px;
+  border-radius: 8%;
+  cursor: pointer;
+  background: #00ff00;
+  color: #fff;
+}
+
+div {
+  margin-top: 10px;
+}
